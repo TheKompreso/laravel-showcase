@@ -2,11 +2,8 @@
 
 namespace App\Http\Requests\API;
 
-use Illuminate\Foundation\Http\FormRequest;
-
-class ProductsRequest extends FormRequest
+class ProductsRequest extends APIFormRequest
 {
-
     public function rules(): array
     {
         return [
